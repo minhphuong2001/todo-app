@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-// import './todo.scss'
 
 export default function Todo(props) {
     const { todo, onRemoveTodo, index, editTodo, getEditTodo, editId, markCompleted } = props;
